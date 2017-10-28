@@ -1,4 +1,6 @@
-  "scripts": {
+{
+    "scripts": {
     "deploy": "node ./deploy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
+}
