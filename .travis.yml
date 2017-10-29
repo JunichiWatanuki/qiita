@@ -6,7 +6,7 @@ branches:
   - master
 before_script:
 - npm install
-script: ls -al README.md
+script: ls -al post_f7f8d692395949d76b5d.md
 after_success: npm run deploy
 env: 
   global:
