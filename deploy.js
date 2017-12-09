@@ -13,7 +13,7 @@ if ( "false" !== process.env.TRAVIS_PULL_REQUEST ) {
 Qiita.setToken( process.env.QIITA_TOKEN );
 Qiita.setEndpoint( 'https://qiita.com' );
 
-fs.readFile( 'post_f7f8d692395949d76b5d.md', 'utf8', ( err, readme ) => {
+fs.readFile( 'post_07bcb842e5532068fd62.md', 'utf8', ( err, readme ) => {
   Qiita.Resources.Item.update_item( process.env.QIITA_POST_ID, {
     title: process.env.QIITA_POST_TITLE,
     body: readme,
